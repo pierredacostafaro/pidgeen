@@ -1,0 +1,16 @@
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
+import Inscription from './Inscription'
+
+function App() {
+  return (
+    <div className="App">
+      <button>Sign up</button>
+        <button>Sign in</button>
+      <Inscription/>
+    </div>
+  );
+}
+
+export default App;
